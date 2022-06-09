@@ -66,5 +66,6 @@ void loop() {
     Particle.publish(" & TVOC: 0x"); Serial.println(TVOC_base, HEX);
     Particle.publish("Humidity level: "); Serial.print(humidity); Serial.print("%");
     Particle.publish("Temperature:  "); Serial.print(temperature); Serial.print("C");
+    delay(300000)
   }
 }
